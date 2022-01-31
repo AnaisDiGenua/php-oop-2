@@ -18,6 +18,9 @@ $products = [
     new Product("Cappotto dritto con cintura da annodare", 59.99, "Cappotto al polpaccio in tessuto dalla linea dritta. Spalle bassissime, cintura staccabile da annodare in vita. Tasche oblique laterali, spacchi sui lati. Foderato." ,"cappotti", "crema", 1028364001)
 ];
 
-var_dump($products);
+//var_dump($products);
+
+
+
 
 ?>

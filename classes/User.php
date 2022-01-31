@@ -1,13 +1,13 @@
 <?php
 
 class User {
-    private $name;
-    private $surname;
-    private $email;
-    private $date_of_birthday;
-    private $address;
-    private $creditCards;
-    private $type_of_user;
+    protected $name;
+    protected $surname;
+    protected $email;
+    protected $date_of_birthday;
+    protected $address;
+    protected $creditCards;
+    protected $type_of_user;
 
 
     //CONSTRUCT
@@ -22,7 +22,7 @@ class User {
         $this->type_of_user = $_type_of_user;
     }
 
-    
+
     public function getName() 
     {
         return $this->name;
