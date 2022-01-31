@@ -22,6 +22,7 @@ class User {
         $this->type_of_user = $_type_of_user;
     }
 
+    
     public function getName() 
     {
         return $this->name;
