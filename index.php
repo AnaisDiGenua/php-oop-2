@@ -21,6 +21,11 @@ $products = [
 //var_dump($products);
 
 
+//creazione users
+$sofia = new User("Sofia", "Verdi" ,"sofia.verdi@gmail.com", "01/09/1996", "via verdi 1", "normal");
+var_dump($sofia);
 
+$martina = new User("Martina", "Rossi", "martina.rossi@gmail.com", "01/09/1989", "via garibaldi 11", "premium");
+var_dump($martina);
 
 ?>

@@ -6,9 +6,9 @@ class UserPremium extends User {
 
 
     //CONSTRUCT
-    public function __construct($_name, $_surname, $_email, $_date_of_birthday, $_address, $_creditCards, $_type_of_user, $_level)
+    public function __construct($_name, $_surname, $_email, $_date_of_birthday, $_address,  $_type_of_user, $_level)
     {
-        parent::__construct($_name, $_surname, $_email, $_date_of_birthday, $_address, $_creditCards, $_type_of_user);
+        parent::__construct($_name, $_surname, $_email, $_date_of_birthday, $_address,  $_type_of_user);
         $this->level = $_level;
     }
 

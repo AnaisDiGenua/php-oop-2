@@ -6,19 +6,17 @@ class User {
     protected $email;
     protected $date_of_birthday;
     protected $address;
-    protected $creditCards;
     protected $type_of_user;
 
 
     //CONSTRUCT
-    public function __construct($_name, $_surname, $_email, $_date_of_birthday, $_address, $_creditCards, $_type_of_user)
+    public function __construct($_name, $_surname, $_email, $_date_of_birthday, $_address,  $_type_of_user)
     {
         $this->name = $_name;
         $this->surname = $_surname;
         $this->email = $_email;
         $this->date_of_birthday = $_date_of_birthday;
         $this->address = $_address;
-        $this->creditCards = $_creditCards;
         $this->type_of_user = $_type_of_user;
     }
 
@@ -46,11 +44,6 @@ class User {
     public function getAddress() 
     {
         return $this->address;
-    }
-
-    public function getCreditCards() 
-    {
-        return $this->creditCards;
     }
 
     public function getTypeOfUser() 
